@@ -91,6 +91,11 @@ class CreditState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Kysiki Engine Team'],
+			['MyFnf',		'discord',		'programmer',								'https://twitter.com/myfnf1698',	'0000FF'],
+			['Mouth-Full Kirby',			'discord',			'musician',							'',		'FFFFFF'],
+			['KillerAvecRage',       'discord',           'charter',                                                                                  '',   '32CD32'],
+			[''],
+			['Kysiki Engine Team'],
 			['MyFnf',		'myfnf',		'Main Director of Kysiki Engine',								'https://twitter.com/myfnf1698',	'0000FF'],
 			['Moxie',			'moxie',			'Main Programmer of Kysiki Engine',							'https://twitter.com/meme_hoovy',		'FFFFFF'],
 			['Wicked',       'wick',           'EX Programmer',                                                                                  'https://twitter.com/vswickedfnf',   '32CD32'],
