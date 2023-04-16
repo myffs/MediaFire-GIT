@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Kysiki Engine" file="KysikiEngine" packageName="com.lildrippymyfnf.kysikiengine" package="com.lildrippymyfnf.kysikiengine" main="Main" version="0.2.8" company="LilDrippyMyFnf" />
+	<app title="Vs MediaFire" file="mediaFireDX" packageName="com.lildrippymyfnf.kysikiengine" package="com.lildrippymyfnf.kysikiengine" main="Main" version="0.2.8" company="LilDrippyMyFnf" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<!-- NOTE TO SELF: DISABLE THIS IF ISSUES ARE FOUND -->
