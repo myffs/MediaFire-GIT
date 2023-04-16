@@ -44,7 +44,7 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: bin_12850384
+          name: bin_lin12850384
           path: 'export/release/linux/bin'
   buildWindows:
     runs-on: windows-latest
@@ -71,7 +71,7 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: bin_1285706980
+          name: bin_win1285706980
           path: export/release/windows/bin
   buildMac:
     runs-on: macos-latest
@@ -97,5 +97,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: bin_125709820
+          name: bin_mac125709820
           path: export/release/macos/bin
