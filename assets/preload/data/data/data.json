@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "ponyo",
+		"player1": "bf",
 		"sectionLengths": [],
 		"events": [],
 		"gfVersion": "gf",
@@ -3509,10 +3509,10 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "dad",
+		"player2": "data",
 		"player3": null,
 		"song": "Data",
-		"stage": "nightmare",
+		"stage": "stage",
 		"needsVoices": true,
 		"validScore": true,
 		"sections": 0,
