@@ -15,7 +15,7 @@ class ClientPrefs {
 	public static var showFPS:Bool = true;
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
-	public static var noteSplashes:Bool = true;
+	public static var noteSplashes:Bool = false;
 	public static var lowQuality:Bool = false;
 	public static var shaders:Bool = true;
 	public static var framerate:Int = 60;
@@ -25,7 +25,7 @@ class ClientPrefs {
 	public static var hideHud:Bool = false;
 	public static var noteOffset:Int = 0;
 	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
-	public static var ghostTapping:Bool = true;
+	public static var ghostTapping:Bool = false;
 	public static var timeBarType:String = 'Disabled';
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
@@ -61,7 +61,7 @@ class ClientPrefs {
 	public static var sickWindow:Int = 45;
 	public static var goodWindow:Int = 90;
 	public static var badWindow:Int = 135;
-	public static var safeFrames:Float = 10;
+	public static var safeFrames:Float = 4.5;
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
 	public static var keyBinds:Map<String, Array<FlxKey>> = [

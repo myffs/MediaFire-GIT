@@ -38,7 +38,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			"If unchecked, hitting \"Sick!\" notes won't show particles.",
 			'noteSplashes',
 			'bool',
-			true);
+			false);
 		addOption(option);
 
 		var option:Option = new Option('Hide HUD',

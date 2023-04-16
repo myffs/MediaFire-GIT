@@ -67,7 +67,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
 			'ghostTapping',
 			'bool',
-			true);
+			false);
 		addOption(option);
 
 		var option:Option = new Option('Disable Reset Button',
@@ -138,7 +138,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'Changes how many frames you have for\nhitting a note earlier or late.',
 			'safeFrames',
 			'float',
-			10);
+			4.5);
 		option.scrollSpeed = 5;
 		option.minValue = 2;
 		option.maxValue = 10;
